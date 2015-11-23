@@ -60,11 +60,11 @@ namespace TrafficReport.Assets.Source.UI
             usageText.relativePosition = new Vector2(5, 5);
             usageText.textScale = 0.6f;
             usageText.text =
-                "左クリックで全交通量を見る\n" +
-                "右クリックで一方向の交通量を見る\n" +
-				"Shift + 右クリックでもう一方を見る\n" +
-				"他の道にマウスオーバーでどのくらい\n" +
-				"その場所を通過しているかを見る\n";                
+                "左クリックで両方の車線の交通量を表示\n" +
+				"右クリック/Shift+右クリックで\n" +
+				"片方の車線のみ表示\n" +
+				"他の道路にマウスオーバーで\n" +
+				"そこを通る経路の交通量を表示\n";                
 
 
             reportBreakDown = AddUIComponent<BreakdownPanel>();
