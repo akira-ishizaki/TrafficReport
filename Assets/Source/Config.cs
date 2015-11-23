@@ -42,29 +42,29 @@ namespace TrafficReport
         [XmlArray(ElementName = "VehicleTypes")]
         [XmlArrayItem(ElementName = "VehicleType")]
         private VehicleDisplay[] vehicleTypes = {
-			new VehicleDisplay { id =  "Citizen/Foot", display = "Pedestrian", onOff=true, color = new Color32(1,255,216,255) },
-            new VehicleDisplay { id =  "Citizen/Cycle", display = "Cyclist", onOff=true, color = new Color32(1,255,216,255) },
+			new VehicleDisplay { id =  "Citizen/Foot", display = "歩行者", onOff=true, color = new Color32(1,255,216,255) },
+            new VehicleDisplay { id =  "Citizen/Cycle", display = "サイクリスト", onOff=true, color = new Color32(1,255,216,255) },
 			
-			new VehicleDisplay { id =  "Citizen/Car", display = "Car", onOff=true , color = new Color32(35,100,90,255) },
-            new VehicleDisplay { id =  "Citizen/Scooter", display = "Scooter", onOff=true , color = new Color32(70,120,100,255) },
+			new VehicleDisplay { id =  "Citizen/Car", display = "車", onOff=true , color = new Color32(35,100,90,255) },
+            new VehicleDisplay { id =  "Citizen/Scooter", display = "スクーター", onOff=true , color = new Color32(70,120,100,255) },
 			
-			new VehicleDisplay { id =  "Industrial/IndustrialGeneric", display = "Cargo truck", onOff=true , color = new Color32(154,92,59,255)  },
-			new VehicleDisplay { id =  "Industrial/IndustrialOil", display = "Oil Tanker", onOff=true , color = new Color32(46,39,35,255) },
-			new VehicleDisplay { id =  "Industrial/IndustrialOre", display = "Ore Truck", onOff=true  , color = new Color32(150,144,141,255)},
-			new VehicleDisplay { id =  "Industrial/IndustrialForestry", display = "Log Truck", onOff=true , color = new Color32(140,39,16,255) },
-			new VehicleDisplay { id =  "Industrial/IndustrialFarming", display = "Tractor", onOff=true , color = new Color32(148,86,52,255) },
+			new VehicleDisplay { id =  "Industrial/IndustrialGeneric", display = "貨物トラック", onOff=true , color = new Color32(154,92,59,255)  },
+			new VehicleDisplay { id =  "Industrial/IndustrialOil", display = "石油トレーラー", onOff=true , color = new Color32(46,39,35,255) },
+			new VehicleDisplay { id =  "Industrial/IndustrialOre", display = "鉱石トレーラー", onOff=true  , color = new Color32(150,144,141,255)},
+			new VehicleDisplay { id =  "Industrial/IndustrialForestry", display = "木材トレーラー", onOff=true , color = new Color32(140,39,16,255) },
+			new VehicleDisplay { id =  "Industrial/IndustrialFarming", display = "トラクター", onOff=true , color = new Color32(148,86,52,255) },
 			
-			new VehicleDisplay { id =  "HealthCare/None", display = "Ambulance", onOff=true  , color = new Color32(30,255,0,255) },
-            new VehicleDisplay { id =  "DeathCare/None", display = "Herse", onOff=true  , color = new Color32(30,180,0,255) },
-			new VehicleDisplay { id =  "Garbage/None", display = "Garbage Truck", onOff=true , color = new Color32(255,240,0,255)  },
-			new VehicleDisplay { id =  "PoliceDepartment/None", display = "Police Car", onOff=true , color = new Color32(24,19,249,255)   },
-			new VehicleDisplay { id =  "FireDepartment/None", display = "Fire truck", onOff=true , color = new Color32(255,0,0,255)  },
+			new VehicleDisplay { id =  "HealthCare/None", display = "救急車", onOff=true  , color = new Color32(30,255,0,255) },
+            new VehicleDisplay { id =  "DeathCare/None", display = "霊柩車", onOff=true  , color = new Color32(30,180,0,255) },
+			new VehicleDisplay { id =  "Garbage/None", display = "ゴミ収集車", onOff=true , color = new Color32(255,240,0,255)  },
+			new VehicleDisplay { id =  "PoliceDepartment/None", display = "パトカー", onOff=true , color = new Color32(24,19,249,255)   },
+			new VehicleDisplay { id =  "FireDepartment/None", display = "消防車", onOff=true , color = new Color32(255,0,0,255)  },
 			
-            new VehicleDisplay { id =  "PublicTransport/PublicTransportMetro", display = "Metro", onOff=true, color = new Color32(255,150,0,255)  },
-            new VehicleDisplay { id =  "PublicTransport/PublicTransportTrain", display = "Train", onOff=true, color = new Color32(255,150,0,255)  },
+            new VehicleDisplay { id =  "PublicTransport/PublicTransportMetro", display = "地下鉄", onOff=true, color = new Color32(255,150,0,255)  },
+            new VehicleDisplay { id =  "PublicTransport/PublicTransportTrain", display = "鉄道", onOff=true, color = new Color32(255,150,0,255)  },
             
-			new VehicleDisplay { id =  "PublicTransport/PublicTransportBus", display = "Bus", onOff=true, color = new Color32(170,57,249,255)  },
-            new VehicleDisplay { id =  "PublicTransport/PublicTransportTaxi", display = "Taxi", onOff=true, color = new Color32(100,57,249,255)  }
+			new VehicleDisplay { id =  "PublicTransport/PublicTransportBus", display = "バス", onOff=true, color = new Color32(170,57,249,255)  },
+            new VehicleDisplay { id =  "PublicTransport/PublicTransportTaxi", display = "タクシー", onOff=true, color = new Color32(100,57,249,255)  }
 	    };
 
         public void NotifyChange()

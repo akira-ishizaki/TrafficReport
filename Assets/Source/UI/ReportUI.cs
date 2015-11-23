@@ -60,16 +60,16 @@ namespace TrafficReport.Assets.Source.UI
             usageText.relativePosition = new Vector2(5, 5);
             usageText.textScale = 0.6f;
             usageText.text =
-                "Left Click to see all Trafic\n" +
-                "Right Click to see traffic for one direction\n" +
-                "Shift + Right Click for the other direction\n" +
-                "Hover over other roads to see how much is \n" +
-                "going through that location.\n";                
+                "左クリックで全交通量を見る\n" +
+                "右クリックで一方向の交通量を見る\n" +
+				"Shift + 右クリックでもう一方を見る\n" +
+				"他の道にマウスオーバーでどのくらい\n" +
+				"その場所を通過しているかを見る\n";                
 
 
             reportBreakDown = AddUIComponent<BreakdownPanel>();
-            reportBreakDown.title.text = "Selected";
-            reportBreakDown.title.tooltip = "A breakdown of all traffic going through the selected road segement";
+            reportBreakDown.title.text = "選択された区間";
+            reportBreakDown.title.tooltip = "選択された道路区間を通過する全交通の内訳";
             reportBreakDown.isVisible = false;
             reportBreakDown.relativePosition = new Vector2(10, 150);
             reportBreakDown.eventHighlightType += (String s) =>
@@ -79,7 +79,7 @@ namespace TrafficReport.Assets.Source.UI
             };
 
             highlightBreakDown = AddUIComponent<BreakdownPanel>();
-            highlightBreakDown.title.text = "...highlighted";
+            highlightBreakDown.title.text = "ハイライトされた区間";
             highlightBreakDown.isVisible = false;
             highlightBreakDown.relativePosition = new Vector2(220, 150);
 
