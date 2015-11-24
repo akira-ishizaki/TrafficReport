@@ -60,16 +60,16 @@ namespace TrafficReport.Assets.Source.UI
             usageText.relativePosition = new Vector2(5, 5);
             usageText.textScale = 0.6f;
             usageText.text =
-                "左クリックで両方の車線の交通量を表示\n" +
+				"左クリックで両方の車線の交通情報を表示\n" +
 				"右クリック/Shift+右クリックで\n" +
 				"片方の車線のみ表示\n" +
 				"他の道路にマウスオーバーで\n" +
-				"そこを通る経路の交通量を表示\n";                
+				"そこを通る経路の交通情報を表示\n";                
 
 
             reportBreakDown = AddUIComponent<BreakdownPanel>();
-            reportBreakDown.title.text = "選択された区間";
-            reportBreakDown.title.tooltip = "選択された道路区間を通過する全交通の内訳";
+            reportBreakDown.title.text = "選択した区間";
+            reportBreakDown.title.tooltip = "選択した道路区間を通る交通の内訳";
             reportBreakDown.isVisible = false;
             reportBreakDown.relativePosition = new Vector2(10, 150);
             reportBreakDown.eventHighlightType += (String s) =>

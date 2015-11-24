@@ -22,7 +22,7 @@ namespace TrafficReport
     
         public string Name
         {
-            get { return "Traffic Report Tool 2.0 (Japanese localization)"; }
+            get { return "Traffic Report Tool 2.0 (Japanese Ver.)"; }
         }
         public string Description
         {
