@@ -1,0 +1,26 @@
+﻿Pedestrian	歩行者
+Cyclist	サイクリスト
+Car	車
+Scooter	スクーター
+Cargo truck	貨物トラック
+Oil Tanker	石油トレーラー
+Ore Truck	鉱石トレーラー
+Log Truck	木材トレーラー
+Tractor	トラクター
+Ambulance	救急車
+Hearse	霊柩車
+Garbage Truck	ゴミ収集車
+Police Car	パトカー
+Fire truck	消防車
+Metro	地下鉄
+Train	鉄道
+Bus	バス
+Taxi	タクシー
+Click to toggle display	クリックして表示/非表示切り替え
+Total	全体
+Hidden	非表示
+No Traffic	交通量無し
+usageText	左クリックで両方の車線の交通情報を表示\n右クリック/Shift+右クリックで\n片方の車線のみ表示\n他の道路にマウスオーバーで\nそこを通る経路の交通情報を表示\n
+Selected	選択した区間
+A breakdown of all traffic going through the selected road segement	選択した道路区間を通る交通の内訳
+...highlighted	ハイライトされた区間

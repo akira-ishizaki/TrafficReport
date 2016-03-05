@@ -1,0 +1,26 @@
+﻿Pedestrian	Pedestrian
+Cyclist	Cyclist
+Car	Car
+Scooter	Scooter
+Cargo truck	Cargo truck
+Oil Tanker	Oil Tanker
+Ore Truck	Ore Truck
+Log Truck	Log Truck
+Tractor	Tractor
+Ambulance	Ambulance
+Hearse	Hearse
+Garbage Truck	Garbage Truck
+Police Car	Police Car
+Fire truck	Fire truck
+Metro	Metro
+Train	Train
+Bus	Bus
+Taxi	Taxi
+Click to toggle display	Click to toggle display
+Total	Total
+Hidden	Hidden
+No Traffic	No Traffic
+usageText	Left Click to see all Trafic\nRight Click to see traffic for one direction\nShift + Right Click for the other direction\nHover over other roads to see how much is \ngoing through that location.\n
+Selected	Selected
+A breakdown of all traffic going through the selected road segement	A breakdown of all traffic going through the selected road segement
+...highlighted	...highlighted

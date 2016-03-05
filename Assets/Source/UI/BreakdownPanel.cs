@@ -53,7 +53,7 @@ namespace TrafficReport.Assets.Source.UI
             for(int i = 0; i < breakdown.Length; i++)
             {
                 BreakdownElement view = AddUIComponent<BreakdownElement>();
-                view.tooltip = "クリックして表示/非表示切り替え";
+                view.tooltip = Translation.GetString("Click to toggle display");
                 view.size = new Vector2(200, 15);
 
                 view.eventMouseEnter += (UIComponent component, UIMouseEventParameter eventParam) =>
@@ -72,7 +72,7 @@ namespace TrafficReport.Assets.Source.UI
 
             total = AddUIComponent<UILabel>();
             total.autoSize = false;
-            total.text = "全体: 0";
+            total.text = Translation.GetString("Total") + ": 0";
             total.textColor = new Color32(206, 248, 0, 255);
             total.textScale = 0.9f;
             total.verticalAlignment = UIVerticalAlignment.Middle;
@@ -155,11 +155,11 @@ namespace TrafficReport.Assets.Source.UI
 
                 if (hiddenCount > 0)
                 {
-                    total.text = "非表示: " + hiddenCount;
+                    total.text = Translation.GetString("Hidden") + ": " + hiddenCount;
                 }
                 else
                 {
-                    total.text = "交通量無し";
+                    total.text = Translation.GetString("No Traffic");
                 }
 
             }
@@ -167,9 +167,9 @@ namespace TrafficReport.Assets.Source.UI
             {
                 chart.enabled = true;
                 chart.SetValues(chartValues, totalCount);
-                total.text = "全体: " + totalCount;
+                total.text = Translation.GetString("Total") + ": " + totalCount;
                 if (hiddenCount > 0)
-                    total.text += " 非表示: " + hiddenCount;
+                    total.text += " " + Translation.GetString("Hidden") + ": " + hiddenCount;
             }
 
             base.Update();

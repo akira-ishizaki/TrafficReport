@@ -16,3 +16,4 @@ build
 Assembly-CSharp-vs.csproj
 ProjectSettings/
 TrafficReport.sln
+.vs

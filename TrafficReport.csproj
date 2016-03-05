@@ -52,8 +52,11 @@
     <Compile Include="Assets\Source\Report.cs" />
     <Compile Include="Assets\Source\Util\ResourceLoader.cs" />
     <Compile Include="Assets\Source\Config.cs" />
+    <Compile Include="Translation.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Resources\text.txt" />
+    <EmbeddedResource Include="Resources\text_ja.txt" />
     <EmbeddedResource Include="Assets\Materials\Pin.png" />
     <EmbeddedResource Include="Assets\Materials\Sprite.png" />
     <Content Include="Assets\report.xml" />
