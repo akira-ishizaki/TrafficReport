@@ -24,3 +24,5 @@ usageText	Left Click to see all Trafic\nRight Click to see traffic for one direc
 Selected	Selected
 A breakdown of all traffic going through the selected road segement	A breakdown of all traffic going through the selected road segement
 ...highlighted	...highlighted
+Road maint truck	Road maint truck
+Tram	Tram

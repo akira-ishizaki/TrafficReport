@@ -62,9 +62,14 @@ namespace TrafficReport
 
             new VehicleDisplay { id =  "PublicTransport/PublicTransportMetro", display = Translation.GetString("Metro"), onOff=true, color = new Color32(255,150,0,255)  },
             new VehicleDisplay { id =  "PublicTransport/PublicTransportTrain", display = Translation.GetString("Train"), onOff=true, color = new Color32(255,150,0,255)  },
+            new VehicleDisplay { id =  "PublicTransport/PublicTransportTram", display = Translation.GetString("Tram"), onOff=true, color = new Color32(255,150,0,255)  },
+
+            
 
             new VehicleDisplay { id =  "PublicTransport/PublicTransportBus", display = Translation.GetString("Bus"), onOff=true, color = new Color32(170,57,249,255)  },
-            new VehicleDisplay { id =  "PublicTransport/PublicTransportTaxi", display = Translation.GetString("Taxi"), onOff=true, color = new Color32(100,57,249,255)  }
+            new VehicleDisplay { id =  "PublicTransport/PublicTransportTaxi", display = Translation.GetString("Taxi"), onOff=true, color = new Color32(100,57,249,255)  },
+
+            new VehicleDisplay { id =  "Road/None", display = Translation.GetString("Road maint truck"), onOff=true, color = new Color32(255,255,255,255)  },
         };
 
         public void NotifyChange()

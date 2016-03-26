@@ -24,3 +24,5 @@ usageText	左クリックで両方の車線の交通情報を表示\n右クリ�
 Selected	選択した区間
 A breakdown of all traffic going through the selected road segement	選択した道路区間を通る交通の内訳
 ...highlighted	ハイライトされた区間
+Road maint truck	道路整備作業車
+Tram	路面電車
